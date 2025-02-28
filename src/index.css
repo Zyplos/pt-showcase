@@ -1,0 +1,52 @@
+/* :root {
+} */
+
+@media (prefers-reduced-motion) {
+	*,
+	::before,
+	::after {
+		animation: none !important;
+	}
+}
+
+*,
+::before,
+::after {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	font-size: 16px;
+}
+
+/* html,
+body,
+#__next {
+	width: 100%;
+	height: 100%;
+} */
+
+body {
+	color: #111;
+	background: #fff;
+	font-family: "Outfit", Roboto, Helvetica, Arial, sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+}
+
+.max-width {
+	margin: 0 auto;
+	padding: 1rem;
+}
+
+.buy-box {
+	gap: 8px;
+}
+
+.intro-header {
+	height: 600px;
+	border-radius: 28px;
+	background-color: red;
+}
