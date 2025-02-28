@@ -1,5 +1,6 @@
 :root {
 	--c-text: #423f3f;
+	--c-primary: #1967d2;
 	--font-family: "Outfit", Roboto, Helvetica, Arial, sans-serif;
 }
 
@@ -42,10 +43,16 @@ body {
 button {
 	font-family: var(--font-family);
 	color: var(--c-text);
-	background: none;
+	background: var(--c-primary);
+	border-radius: 4px;
+	color: #fff;
 	border: none;
-	padding: 1rem;
+	padding: 0.75rem 1.5rem;
 	cursor: pointer;
+}
+
+button:hover {
+	background-color: #3e7fd9;
 }
 
 .limited-width {

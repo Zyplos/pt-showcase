@@ -31,10 +31,12 @@
 	font-weight: 500;
 	border-radius: 4px;
 	cursor: pointer;
+	background-color: transparent;
+	color: var(--c-text);
 }
 
 .nav-items .active-link {
-	color: #1967d2;
+	color: var(--c-primary);
 	border: 2px solid transparent;
 }
 
@@ -49,7 +51,7 @@
 	left: 0;
 	height: 2px;
 	width: 100%;
-	background-color: #1967d2;
+	background-color: var(--c-primary);
 }
 
 .nav-items .active-link:hover {

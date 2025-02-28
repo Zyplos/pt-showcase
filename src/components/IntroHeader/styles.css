@@ -50,8 +50,13 @@
 
 .copy-area .price {
 	font-weight: 600;
+	margin-bottom: 0.5rem;
 }
 
 .copy-area .financing {
 	font-size: 0.87rem;
+}
+
+.copy-area button {
+	width: auto;
 }
