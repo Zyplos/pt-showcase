@@ -53,9 +53,3 @@ button {
 	padding: 1rem;
 	max-width: 1440px;
 }
-
-.intro-header {
-	height: 600px;
-	border-radius: 28px;
-	background-color: red;
-}

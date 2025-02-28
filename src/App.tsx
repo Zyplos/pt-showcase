@@ -1,3 +1,4 @@
+import IntroHeader from "./components/IntroHeader";
 import PageNavHeader from "./components/PageNavHeader";
 import "./index.css";
 
@@ -8,7 +9,9 @@ export function App() {
 				<PageNavHeader />
 			</section>
 
-			<div className="intro-header">pow!</div>
+			<section className="limited-width">
+				<IntroHeader />
+			</section>
 		</>
 	);
 }
