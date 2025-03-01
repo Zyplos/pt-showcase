@@ -20,6 +20,10 @@
 	margin: 0;
 }
 
+* {
+	transition: all 0.17s ease-out;
+}
+
 html {
 	font-size: 16px;
 }
