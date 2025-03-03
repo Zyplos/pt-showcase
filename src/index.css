@@ -59,8 +59,14 @@ button:hover {
 	background-color: #3e7fd9;
 }
 
-.limited-width {
+.limited-width-big {
 	margin: 0 auto;
 	padding: 1rem;
 	max-width: 1440px;
+}
+
+.limited-width {
+	margin: 0 auto;
+	padding: 1rem;
+	max-width: 1200px;
 }

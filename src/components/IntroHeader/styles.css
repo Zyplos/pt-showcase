@@ -2,7 +2,8 @@
 .intro-header {
 	height: 600px;
 	border-radius: 28px;
-	background-color: #e5e8ef;
+	/* background-color: #e5e8ef; */
+	background-color: #f7eff5;
 	overflow: hidden;
 	margin: 0;
 	position: relative;
