@@ -8,6 +8,10 @@
 	font-weight: 600 !important;
 }
 
+.highlights-row {
+	margin-bottom: 8rem;
+}
+
 .highlights-row,
 .highlights-row div {
 	display: flex;
@@ -27,4 +31,46 @@
 .highlights-row img {
 	width: 3rem;
 	height: 3rem;
+}
+
+/* bigger image highlights */
+
+.image-highlights {
+	font-size: 2rem;
+	font-weight: 600;
+	display: flex;
+	gap: 1rem;
+	flex-wrap: wrap;
+}
+
+.image-highlights .desk-view {
+	width: 100%;
+}
+
+.image-highlights .tensor-chip {
+	width: 45%;
+}
+
+.image-highlights .customize {
+	/* width: 50%; */
+	flex: 1;
+}
+
+.image-highlights .highlight {
+	position: relative;
+	border-radius: 28px;
+	overflow: hidden;
+	text-align: left;
+	text-wrap: balance;
+}
+
+.image-highlights p {
+	position: absolute;
+	top: 0rem;
+	left: 0rem;
+	padding: 2.5rem;
+}
+
+.image-highlights img {
+	max-width: 100%;
 }

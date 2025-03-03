@@ -66,7 +66,7 @@ export default function IntroHeader() {
 	};
 
 	return (
-		<div className="intro-header">
+		<div className="intro-header bg-product">
 			<div className="copy-area">
 				<h2 className="display-text">Now you're playing with power.</h2>
 				<div>

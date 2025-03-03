@@ -70,3 +70,7 @@ button:hover {
 	padding: 1rem;
 	max-width: 1200px;
 }
+
+.bg-product {
+	background-color: #f7eff5;
+}
