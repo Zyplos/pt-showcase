@@ -1,31 +1,31 @@
 :root {
-	--c-text: #423f3f;
-	--c-primary: #1967d2;
-	--font-family: "Outfit", Roboto, Helvetica, Arial, sans-serif;
+  --c-text: #423f3f;
+  --c-primary: #1967d2;
+  --font-family: "Outfit", Roboto, Helvetica, Arial, sans-serif;
 }
 
 @media (prefers-reduced-motion) {
-	*,
-	::before,
-	::after {
-		animation: none !important;
-	}
+  *,
+  ::before,
+  ::after {
+    animation: none !important;
+  }
 }
 
 *,
 ::before,
 ::after {
-	box-sizing: border-box;
-	padding: 0;
-	margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 * {
-	transition: all 0.17s ease-out;
+  transition: all 0.17s ease-out;
 }
 
 html {
-	font-size: 16px;
+  font-size: 16px;
 }
 
 /* html,
@@ -36,41 +36,41 @@ body,
 } */
 
 body {
-	color: var(--c-text);
-	background: #fff;
-	font-family: "Outfit", Roboto, Helvetica, Arial, sans-serif;
-	font-optical-sizing: auto;
-	font-style: normal;
-	padding: 2rem;
+  color: var(--c-text);
+  background: #fff;
+  font-family: "Outfit", Roboto, Helvetica, Arial, sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  padding: 2rem;
 }
 
 button {
-	font-family: var(--font-family);
-	color: var(--c-text);
-	background: var(--c-primary);
-	border-radius: 4px;
-	color: #fff;
-	border: none;
-	padding: 0.75rem 1.5rem;
-	cursor: pointer;
+  font-family: var(--font-family);
+  color: var(--c-text);
+  background: var(--c-primary);
+  border-radius: 4px;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
 }
 
 button:hover {
-	background-color: #3e7fd9;
+  background-color: #3e7fd9;
 }
 
 .limited-width-big {
-	margin: 0 auto;
-	padding: 1rem;
-	max-width: 1440px;
+  margin: 0 auto;
+  padding: 1rem;
+  max-width: 1440px;
 }
 
 .limited-width {
-	margin: 0 auto;
-	padding: 1rem;
-	max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+  max-width: 1200px;
 }
 
 .bg-product {
-	background-color: #f7eff5;
+  background-color: #f7eff5;
 }

@@ -1,163 +1,163 @@
 /* a few parts of this was lifted off the actual google store since it was already built well */
 .intro-header {
-	height: 600px;
-	border-radius: 28px;
-	/* background-color: #e5e8ef; */
-	overflow: hidden;
-	margin: 0;
-	position: relative;
+  height: 600px;
+  border-radius: 28px;
+  /* background-color: #e5e8ef; */
+  overflow: hidden;
+  margin: 0;
+  position: relative;
 }
 
 .intro-header {
-	display: grid;
-	grid-template-columns: repeat(12, 1fr);
-	grid-template-areas: ". copy copy copy copy image image image image image image image";
-	gap: 2rem;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-areas: ". copy copy copy copy image image image image image image image";
+  gap: 2rem;
 }
 
 .intro-header .copy-area {
-	grid-area: copy;
-	grid-row: 1;
+  grid-area: copy;
+  grid-row: 1;
 
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	gap: 1rem;
-	padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem;
 }
 
 .intro-header .product-image {
-	grid-area: image;
-	position: relative;
-	overflow: hidden;
+  grid-area: image;
+  position: relative;
+  overflow: hidden;
 }
 
 .intro-header .product-image img {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	object-position: left;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: left;
 }
 
 .copy-area {
-	font-size: 1.3rem;
+  font-size: 1.3rem;
 }
 
 .copy-area .display-text {
-	font-size: 3.2rem;
-	font-weight: 600;
-	line-height: 1.1;
-	margin-bottom: 1rem;
-	margin-top: 2rem;
-	/* text-wrap: balance; */
+  font-size: 3.2rem;
+  font-weight: 600;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  /* text-wrap: balance; */
 }
 
 .copy-area .price {
-	font-weight: 600;
-	margin-bottom: 0.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
 }
 
 .copy-area .financing {
-	font-size: 0.87rem;
+  font-size: 0.87rem;
 }
 
 .copy-area button {
-	width: auto;
+  width: auto;
 }
 
 /* ===== colorway toolbar */
 
 .color-toolbar {
-	margin-top: auto;
+  margin-top: auto;
 }
 
 .colorway-selector {
-	display: flex;
-	gap: 1rem;
-	margin-left: 4px;
+  display: flex;
+  gap: 1rem;
+  margin-left: 4px;
 }
 
 .colorway-selector .colorway {
-	width: 1.5rem;
-	height: 1.5rem;
-	border-radius: 100%;
-	border: 1px solid #000;
-	position: relative;
-	cursor: pointer;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 100%;
+  border: 1px solid #000;
+  position: relative;
+  cursor: pointer;
 }
 
 .colorway.active-ring::after {
-	content: "";
-	border: 3px solid var(--c-primary);
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	width: 150%;
-	height: 150%;
-	border-radius: 100%;
+  content: "";
+  border: 3px solid var(--c-primary);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 150%;
+  height: 150%;
+  border-radius: 100%;
 }
 
 .color-Yellow {
-	background-color: #fcc57bff;
+  background-color: #fcc57bff;
 }
 
 .color-Blue {
-	background-color: #7ec5ffff;
+  background-color: #7ec5ffff;
 }
 
 .color-Green {
-	background-color: #87b093ff;
+  background-color: #87b093ff;
 }
 
 .copy-area .color-text {
-	font-size: 0.85rem;
-	font-weight: 500;
-	margin-top: 1rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  margin-top: 1rem;
 }
 
 /* ===== image toolbar */
 
 .preview-toolbar {
-	position: absolute;
-	right: 2rem;
-	bottom: 2rem;
+  position: absolute;
+  right: 2rem;
+  bottom: 2rem;
 
-	display: flex;
-	align-items: center;
-	gap: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .image-selector-toolbar {
-	display: flex;
-	align-items: center;
-	gap: 1rem;
-	background-color: #fff;
-	border-radius: 500px;
-	font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: #fff;
+  border-radius: 500px;
+  font-weight: 500;
 }
 
 .preview-toolbar button {
-	background: none;
-	padding: 0.3rem;
-	margin: 0.3rem;
-	border-radius: 500px;
-	background-color: #fff;
+  background: none;
+  padding: 0.3rem;
+  margin: 0.3rem;
+  border-radius: 500px;
+  background-color: #fff;
 }
 
 .preview-toolbar .preview-3d-button {
-	padding: 0.6rem;
-	margin: 0;
+  padding: 0.6rem;
+  margin: 0;
 }
 
 .preview-toolbar button:hover {
-	background-color: #eee;
+  background-color: #eee;
 }
 
 .preview-toolbar svg {
-	width: 24px;
-	height: 24px;
-	line-height: 0;
-	display: block;
+  width: 24px;
+  height: 24px;
+  line-height: 0;
+  display: block;
 }

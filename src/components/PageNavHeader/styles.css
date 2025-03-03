@@ -1,89 +1,89 @@
 /* ===== nav wrapper stuff */
 .page-nav-header {
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .page-nav-header .product-title {
-	margin-right: 2rem;
+  margin-right: 2rem;
 }
 
 .page-nav-header .nav-items {
-	margin-right: auto;
+  margin-right: auto;
 }
 
 /* ===== nav items */
 
 .nav-items {
-	display: flex;
-	gap: 1rem;
-	height: 100%;
-	align-items: stretch;
+  display: flex;
+  gap: 1rem;
+  height: 100%;
+  align-items: stretch;
 }
 
 .nav-items > *:hover {
-	background-color: rgba(25, 24, 24, 0.08);
+  background-color: rgba(25, 24, 24, 0.08);
 }
 
 .nav-items > * {
-	font-size: 1.1rem;
-	padding: 10px 4px;
-	font-weight: 500;
-	border-radius: 4px;
-	cursor: pointer;
-	background-color: transparent;
-	color: var(--c-text);
+  font-size: 1.1rem;
+  padding: 10px 4px;
+  font-weight: 500;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: transparent;
+  color: var(--c-text);
 }
 
 .nav-items .active-link {
-	color: var(--c-primary);
-	border: 2px solid transparent;
+  color: var(--c-primary);
+  border: 2px solid transparent;
 }
 
 .nav-items .active-link span {
-	position: relative;
+  position: relative;
 }
 
 .nav-items .active-link span::before {
-	content: "";
-	position: absolute;
-	bottom: -2px;
-	left: 0;
-	height: 2px;
-	width: 100%;
-	background-color: var(--c-primary);
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: var(--c-primary);
 }
 
 .nav-items .active-link:hover {
-	background-color: rgba(25, 103, 210, 0.08);
+  background-color: rgba(25, 103, 210, 0.08);
 }
 
 /* buy box */
 
 .buy-box {
-	display: flex;
-	gap: 1rem;
-	text-align: end;
-	align-items: center;
+  display: flex;
+  gap: 1rem;
+  text-align: end;
+  align-items: center;
 }
 
 .buy-box p {
-	margin-bottom: 4px;
-	font-weight: 500;
+  margin-bottom: 4px;
+  font-weight: 500;
 }
 
 .buy-box .price {
-	font-size: 0.875rem;
+  font-size: 0.875rem;
 }
 
 .buy-box .financing {
-	font-size: 0.75rem;
+  font-size: 0.75rem;
 }
 
 .buy-box button {
-	background-color: #1967d2;
-	color: #fff;
-	font-size: 1.7rem;
-	border-radius: 4px;
-	padding: 0.8rem 3rem;
+  background-color: #1967d2;
+  color: #fff;
+  font-size: 1.7rem;
+  border-radius: 4px;
+  padding: 0.8rem 3rem;
 }
