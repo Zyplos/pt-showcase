@@ -1,0 +1,56 @@
+.deal-card {
+  display: flex;
+  border-radius: var(--radius);
+  /* font-size: 1.15rem; */
+  margin-bottom: 2rem;
+  padding: 1rem 2rem;
+  gap: 1rem;
+}
+
+.deal-card .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.deal-card img {
+  width: 100px;
+  padding: 1.13rem;
+}
+
+.deal-card .card-title {
+  font-size: 1.45rem;
+  font-weight: 600;
+  /* text-wrap: balance; */
+  width: 70%;
+}
+
+.learn-more-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  fill: var(--c-primary);
+  color: var(--c-primary);
+  flex-shrink: 0;
+  font-size: 1.05rem;
+  margin-left: 1rem;
+}
+
+.learn-more-link a {
+  display: block;
+  width: auto;
+  color: var(--c-primary);
+  text-decoration: none;
+}
+
+.learn-more-link a:hover {
+  text-decoration: underline;
+}
+
+.learn-more-link svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+}

@@ -1,0 +1,27 @@
+.content-image-card {
+  display: flex;
+  border-radius: var(--radius);
+  overflow: hidden;
+  font-size: 1.15rem;
+  margin-bottom: 2rem;
+}
+
+.content-image-card .content {
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.content-image-card img {
+  max-width: 100%;
+  width: 50%;
+}
+
+.content-image-card .card-title {
+  font-size: 2rem;
+  font-weight: 600;
+  /* text-wrap: balance; */
+  width: 70%;
+}

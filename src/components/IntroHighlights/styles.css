@@ -2,12 +2,6 @@
   text-align: center;
 }
 
-.intro-showcase h2 {
-  margin: 2rem 0;
-  font-size: 2.25rem;
-  font-weight: 600 !important;
-}
-
 .highlights-row {
   margin-bottom: 8rem;
 }
@@ -58,7 +52,7 @@
 
 .image-highlights .highlight {
   position: relative;
-  border-radius: 28px;
+  border-radius: var(--radius);
   overflow: hidden;
   text-align: left;
   text-wrap: balance;

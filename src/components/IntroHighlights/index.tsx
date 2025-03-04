@@ -12,7 +12,9 @@ import tensorChip from "@/assets/tensor-chip.png";
 export default function IntroHighlights() {
   return (
     <div className="intro-showcase">
-      <h2>Seamlessly connected. Powerfully Google.</h2>
+      <h2 className="section-title">
+        Seamlessly connected. Powerfully Google.
+      </h2>
 
       <div className="highlights-row">
         <div>

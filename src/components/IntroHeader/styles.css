@@ -1,7 +1,7 @@
 /* a few parts of this was lifted off the actual google store since it was already built well */
 .intro-header {
   height: 600px;
-  border-radius: 28px;
+  border-radius: var(--radius);
   /* background-color: #e5e8ef; */
   overflow: hidden;
   margin: 0;
