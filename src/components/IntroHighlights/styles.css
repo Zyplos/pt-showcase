@@ -37,6 +37,10 @@
   flex-wrap: wrap;
 }
 
+.image-highlights img {
+  display: block;
+}
+
 .image-highlights .desk-view {
   width: 100%;
 }
@@ -67,4 +71,47 @@
 
 .image-highlights img {
   max-width: 100%;
+}
+
+.image-highlights .gemini-highlight p {
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  font-weight: 400;
+}
+
+/* https://dev.to/afif/border-with-gradient-and-radius-387f */
+.image-highlights .gemini-highlight {
+  position: relative;
+  overflow: visible;
+}
+
+.image-highlights .gemini-highlight img {
+  border-radius: var(--radius);
+}
+
+.image-highlights .cheater-linebreak-styles {
+  font-size: 1rem;
+}
+
+.image-highlights .gemini-highlight::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: var(--radius);
+  padding: 4px;
+  background-image: linear-gradient(
+    74deg,
+    rgb(66, 133, 244) 0px,
+    rgb(155, 114, 203) 12%,
+    rgb(217, 101, 112) 24%,
+    rgb(217, 101, 112) 36%,
+    rgb(155, 114, 203) 48%,
+    rgb(66, 133, 244) 50%,
+    rgb(155, 114, 203) 70%,
+    rgb(217, 101, 112) 90%
+  );
+  pointer-events: none;
+  filter: blur(30px);
+  z-index: -1;
 }

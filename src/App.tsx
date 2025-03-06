@@ -8,6 +8,8 @@ import DealCard from "./components/DealCard";
 import volumeImg from "@/assets/volume.png";
 import monospaceImg from "@/assets/monospace.png";
 import monospaceIcon from "@/assets/monospace-icon.svg";
+import geminiImage from "@/assets/gemini-4k.png";
+import weatherImage from "@/assets/weather.png";
 
 export function App() {
   return (
@@ -56,11 +58,47 @@ export function App() {
           <p className="card-title">Get 2 months of Monospace Pro on us</p>
 
           <p>
-            Get the best before the rest. Access Google’s next-gen AI and
-            priority access to new features with Gemini Advanced, plus get 2TB
-            of storage.▽
+            Stay ahead of the curve. Access Google's next-gen AI code agents in
+            preview, plus get 10 more workspaces to set up projects in.
           </p>
         </DealCard>
+      </section>
+
+      <section className="limited-width-big">
+        <h2 className="section-title">
+          Experience <span className="gemini-text">Gemini</span> in a whole new
+          way
+        </h2>
+        <div className="image-highlights">
+          <div className="highlight gemini-highlight">
+            <p>
+              Focus on your core work. Pixel Base manages the rest.
+              <br />
+              <span className="cheater-linebreak-styles">
+                Be one of the first to experience Project Mariner on Desktop.
+                Let Pixel Base automate your system tasks.
+              </span>
+            </p>
+            <img src={geminiImage} alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section className="limited-width">
+        <h2 className="section-title">The cutting edge of AI.</h2>
+        <ContentImageCard
+          src={weatherImage}
+          alt={"Pixel Base LEDs show contextual information when useful"}
+          imageFirst={true}
+        >
+          <h3 className="card-title">Smart tips for every moment</h3>
+          <p>
+            Pixel Sense uses products across Google to highlight what's
+            important to you right when you need it and makes acting on is
+            seamless. Pixel Sense uses Gemini to reason and bring you
+            intelligent suggestions.
+          </p>
+        </ContentImageCard>
       </section>
     </>
   );

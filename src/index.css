@@ -22,9 +22,9 @@
   margin: 0;
 }
 
-* {
+/* * {
   transition: all 0.17s ease-out;
-}
+} */
 
 html {
   font-size: 16px;
@@ -87,4 +87,27 @@ button:hover {
 
 .bg-product-darker {
   background-color: #dfd2db;
+}
+
+/* grabbed off the gemini site */
+.gemini-text {
+  display: inline-block;
+  color: transparent;
+  background: linear-gradient(
+    74deg,
+    rgb(66, 133, 244) 0px,
+    rgb(155, 114, 203) 9%,
+    rgb(217, 101, 112) 20%,
+    rgb(217, 101, 112) 24%,
+    rgb(155, 114, 203) 35%,
+    rgb(66, 133, 244) 44%,
+    rgb(155, 114, 203) 50%,
+    rgb(217, 101, 112) 56%,
+    rgb(27, 28, 29) 75%,
+    rgb(27, 28, 29) 100%
+  );
+  background-size: 400% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
