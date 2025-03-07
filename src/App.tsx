@@ -10,6 +10,7 @@ import monospaceImg from "@/assets/monospace.png";
 import monospaceIcon from "@/assets/monospace-icon.svg";
 import geminiImage from "@/assets/gemini-4k.png";
 import weatherImage from "@/assets/weather.png";
+import FAQStuff from "./components/FAQStuff";
 
 export function App() {
   return (
@@ -99,6 +100,10 @@ export function App() {
             intelligent suggestions.
           </p>
         </ContentImageCard>
+      </section>
+
+      <section className="limited-width">
+        <FAQStuff />
       </section>
     </>
   );
