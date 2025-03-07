@@ -1,0 +1,32 @@
+.fancy-button {
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.fancy-button img {
+  width: 28px;
+}
+
+.fancy-button a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  padding: 1rem;
+  border-radius: 300px;
+
+  background-color: #111;
+  color: #fff;
+  text-decoration: none;
+
+  transition: background-color 0.35s, filter 0.35s;
+}
+
+.fancy-button a:hover {
+  background-color: #ff3e3e;
+}
+
+.fancy-button a:hover img {
+  filter: brightness(10);
+}

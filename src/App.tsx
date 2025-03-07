@@ -11,6 +11,7 @@ import monospaceIcon from "@/assets/monospace-icon.svg";
 import geminiImage from "@/assets/gemini-4k.png";
 import weatherImage from "@/assets/weather.png";
 import FAQStuff from "./components/FAQStuff";
+import Footer from "./components/Footer";
 
 export function App() {
   return (
@@ -104,6 +105,10 @@ export function App() {
 
       <section className="limited-width">
         <FAQStuff />
+      </section>
+
+      <section className="limited-width">
+        <Footer />
       </section>
     </>
   );
