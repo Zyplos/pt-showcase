@@ -1,0 +1,39 @@
+.faq-section {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3rem;
+}
+
+.title-section {
+  width: 40%;
+  font-weight: 500;
+}
+
+.title-section h2 {
+  font-weight: 600;
+  font-size: 2rem;
+  width: 70%;
+}
+
+.content-section {
+  flex: 1;
+}
+
+.content-section summary {
+  font-weight: 500;
+  font-size: 1.35rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.content-section details {
+  margin-bottom: 2rem;
+  /* apparently the details tag does not respect display flex */
+  /* display: flex;
+  flex-direction: column;
+  gap: 2rem; */
+}
+
+.content-section p {
+  margin-bottom: 1rem;
+}

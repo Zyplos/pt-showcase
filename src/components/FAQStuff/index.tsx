@@ -1,15 +1,17 @@
+import "./styles.css";
+
 export default function FAQStuff() {
   return (
     <div className="faq-section">
-      <div>
+      <div className="title-section">
         <h2>Frequently asked questions.</h2>
       </div>
-      <div>
-        <details>
+      <div className="content-section">
+        <details name="faq">
           <summary>Where can I buy this?</summary>
           <p>Sadly you cannot buy this. As it does not exist. Sorry!</p>
         </details>
-        <details>
+        <details name="faq">
           <summary>
             Why's this running Fuchsia and not ChromeOS or Android?
           </summary>
@@ -69,7 +71,7 @@ export default function FAQStuff() {
           </p>
         </details>
 
-        <details>
+        <details name="faq">
           <summary>Why is this using the Google Tensor G6?</summary>
           <p>
             This is based on a story I read about user feedback to the Tensor
@@ -81,7 +83,7 @@ export default function FAQStuff() {
           </p>
         </details>
 
-        <details>
+        <details name="faq">
           <summary>
             How does the Pixel Base connect to Google Workspace PCs?
           </summary>
@@ -126,7 +128,7 @@ export default function FAQStuff() {
             </i>
           </p>
         </details>
-        <details>
+        <details name="faq">
           <summary>Why's there a Micro SD Card slot in the back?</summary>
           <p>
             Should this hypothetical product come to market, it would probably
