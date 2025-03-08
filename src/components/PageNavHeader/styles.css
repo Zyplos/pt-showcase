@@ -29,9 +29,10 @@
   align-items: center;
 }
 
-.page-nav-header {
-  display: flex;
-  align-items: center;
+@media screen and (max-width: 1000px) {
+  .page-nav-header {
+    display: block;
+  }
 }
 
 .page-nav-header .product-title {
@@ -97,6 +98,13 @@
   gap: 1rem;
   text-align: end;
   align-items: center;
+}
+
+/* no need to see it on small screens */
+@media screen and (max-width: 1000px) {
+  .buy-box {
+    display: none;
+  }
 }
 
 .buy-box p {
