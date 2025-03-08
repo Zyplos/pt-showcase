@@ -12,10 +12,13 @@ import geminiImage from "@/assets/gemini-4k.png";
 import weatherImage from "@/assets/weather.png";
 import FAQStuff from "./components/FAQStuff";
 import Footer from "./components/Footer";
+import DisclaimerBanner from "./components/DisclaimerBanner";
 
 export function App() {
   return (
     <>
+      <DisclaimerBanner />
+
       {/* <section className="limited-width-big"> */}
       <PageNavHeader />
       {/* </section> */}
