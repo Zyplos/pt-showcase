@@ -43,7 +43,6 @@ body {
   font-family: "Outfit", Roboto, Helvetica, Arial, sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  padding: 2rem;
 }
 
 button {
@@ -68,6 +67,10 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+section {
+  padding: 2rem;
 }
 
 .section-title {

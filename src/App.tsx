@@ -16,11 +16,16 @@ import Footer from "./components/Footer";
 export function App() {
   return (
     <>
-      <section className="limited-width-big">
-        <PageNavHeader />
-      </section>
+      {/* <section className="limited-width-big"> */}
+      <PageNavHeader />
+      {/* </section> */}
 
-      <section className="limited-width-big">
+      <section
+        className="limited-width-big"
+        style={{
+          paddingTop: 0,
+        }}
+      >
         <IntroHeader />
       </section>
 

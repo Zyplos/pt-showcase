@@ -17,6 +17,8 @@
 .content-image-card img {
   max-width: 100%;
   width: 50%;
+  object-fit: cover;
+  /* flex-shrink: 0; */
 }
 
 .content-image-card .card-title {
