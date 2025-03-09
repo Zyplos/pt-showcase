@@ -107,6 +107,14 @@ section {
   max-width: 1200px;
 }
 
+@media screen and (max-width: 1000px) {
+  .limited-width {
+    margin: 0 auto;
+    padding: 1rem;
+    max-width: 500px;
+  }
+}
+
 .bg-product {
   background-color: #f7eff5;
 }

@@ -30,7 +30,7 @@
 @media screen and (max-width: 1000px) {
   .highlights-row {
     flex-direction: column;
-    align-items: left;
+    align-items: start;
     text-align: left;
     margin-bottom: 3rem;
     padding: 0 3rem;
@@ -104,6 +104,8 @@
 
   .image-highlights p {
     padding: 1.5rem;
+    width: 100%;
+    text-align: center;
   }
 }
 

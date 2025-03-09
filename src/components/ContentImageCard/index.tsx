@@ -14,7 +14,9 @@ export default function ContentImageCard({
   imageFirst = false,
 }: Props) {
   return (
-    <div className="content-image-card bg-product">
+    <div
+      className={`content-image-card bg-product ${imageFirst ? "flipped-image" : ""}`}
+    >
       {imageFirst ? (
         <>
           <img src={src} alt={alt} className="bg-product-darker" />
