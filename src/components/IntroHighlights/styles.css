@@ -155,3 +155,9 @@
   filter: blur(30px);
   z-index: -1;
 }
+
+@media screen and (max-width: 1000px) {
+  .image-highlights .gemini-highlight img {
+    aspect-ratio: initial;
+  }
+}
