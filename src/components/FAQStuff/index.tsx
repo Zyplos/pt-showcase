@@ -8,6 +8,30 @@ export default function FAQStuff() {
       </div>
       <div className="content-section">
         <details name="faq">
+          <summary>What is this?</summary>
+          <p>
+            This is a concept for a hypothetical future desktop platform by
+            Google.
+          </p>
+          <p>
+            Please note this isn't made in any official capacity or anything,
+            I'm not a Googler. Just something I thought up and wanted to make.
+            All renders by me! Except for the mouse model. Credits go to{" "}
+            <a
+              href="https://sketchfab.com/3d-models/mouse-logitech-g203-6b70ace291c44735bed3309b05f44bba"
+              target="_blank"
+              rel="noreferrer"
+            >
+              JorgeAlfredOwO
+            </a>{" "}
+            for the model.
+          </p>
+          <p>
+            There are extra notes if you{" "}
+            <strong>toggle the design commentary</strong> at the top.
+          </p>
+        </details>
+        <details name="faq">
           <summary>Where can I buy this?</summary>
           <p>Sadly you cannot buy this. As it does not exist. Sorry!</p>
         </details>
@@ -76,10 +100,14 @@ export default function FAQStuff() {
           <p>
             This is based on a story I read about user feedback to the Tensor
             chips where people were complaining about overheating issues. I
-            picked the Tensor G6 since that was the target for shipping an
-            improved Tensor chip. Realistically this hypothetical product would
-            ship way later than when the Tensor G6 Pixel phones would come out
-            though.
+            picked the Tensor G6 since the story mentioned that it was the
+            target for shipping an improved Tensor chip.
+          </p>
+
+          <p>
+            Realistically this hypothetical product would ship way later than
+            when the Tensor G6 Pixel phones would come out though (given
+            development time for everything involved).
           </p>
         </details>
 
@@ -88,7 +116,15 @@ export default function FAQStuff() {
             How does the Pixel Base connect to Google Workspace PCs?
           </summary>
           <p>
-            Really I just added that section on a whim because the page was
+            "Google Workspace PCs" don't really exist (though in some manner{" "}
+            <a
+              href="https://cloud.google.com/solutions/virtual-desktops?hl=en"
+              target="_blank"
+              rel="noreferrer"
+            >
+              they do
+            </a>
+            ). Really I just added that section on a whim because the page was
             looking a bit empty. But I did give it some thought:
           </p>
           <p>
@@ -114,10 +150,15 @@ export default function FAQStuff() {
           <p>
             In a Fuchsia-powered reality, I think a good option would be making
             mounted cloud storage a very seamless experience. Like Google Drive
-            for Desktop but the backing of a first party platform. Paired with
-            the Sun Microsystems story and depending on how Fuchsia would end up
-            working, I think it would make for a better virtual desktop
+            for Desktop but with the backing of a first party platform. Paired
+            with the Sun Microsystems story and depending on how Fuchsia would
+            end up working, I think it would make for a better virtual desktop
             experience than streaming video.
+          </p>
+          <p>
+            With Google Cloud having this resources that it does I thought maybe
+            this seemed like a plausible enough thing to include and yet another
+            thing that would integrate well.
           </p>
           <p>
             <i>
@@ -141,7 +182,8 @@ export default function FAQStuff() {
             I couldn't decide between a normal sized SD Card or Micro SD Card. I
             only went with the Micro SD Card because I thought of the Steam
             Deck, which is basically a small form factor computer that uses a
-            Micro SD Card as one of its main storage mediums.
+            Micro SD Card as one of its main storage mediums (so maybe it would
+            work fine here).
           </p>
         </details>
       </div>

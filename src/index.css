@@ -50,6 +50,7 @@ body {
   font-family: "Outfit", Roboto, Helvetica, Arial, sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+  padding-bottom: 4rem;
 }
 
 button {
