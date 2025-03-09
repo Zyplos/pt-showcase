@@ -27,6 +27,21 @@
   height: 3rem;
 }
 
+@media screen and (max-width: 1000px) {
+  .highlights-row {
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    margin-bottom: 3rem;
+    padding: 0 3rem;
+  }
+
+  .highlights-row div {
+    flex-direction: row;
+    justify-content: start;
+  }
+}
+
 /* bigger image highlights */
 
 .image-highlights {
@@ -67,6 +82,29 @@
   top: 0rem;
   left: 0rem;
   padding: 2.5rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .image-highlights {
+    font-size: 1.2rem;
+  }
+
+  .image-highlights img {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+  }
+
+  .image-highlights .tensor-chip {
+    width: 100%;
+  }
+
+  .image-highlights .customize {
+    width: 100%;
+  }
+
+  .image-highlights p {
+    padding: 1.5rem;
+  }
 }
 
 .image-highlights img {

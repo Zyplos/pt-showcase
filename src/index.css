@@ -31,6 +31,12 @@ html {
   font-size: 16px;
 }
 
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: 15px;
+  }
+}
+
 /* html,
 body,
 #__next {
@@ -80,6 +86,13 @@ section {
   margin-bottom: 2.5rem;
   font-weight: 600 !important;
   text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .section-title {
+    font-size: 1.75rem;
+    margin-top: 2rem;
+  }
 }
 
 .limited-width-big {
