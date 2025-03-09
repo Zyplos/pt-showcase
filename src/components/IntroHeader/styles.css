@@ -15,6 +15,19 @@
   gap: 2rem;
 }
 
+@media screen and (max-width: 1000px) {
+  .intro-header {
+    display: flex;
+    flex-direction: column-reverse;
+    grid-template-areas: none;
+    width: 100%;
+    background-color: transparent !important;
+    height: auto;
+    gap: 0rem;
+    align-items: center;
+  }
+}
+
 .intro-header .copy-area {
   grid-area: copy;
   grid-row: 1;
@@ -24,6 +37,12 @@
   justify-content: center;
   gap: 1rem;
   padding: 2rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .intro-header .copy-area {
+    flex-direction: column-reverse;
+  }
 }
 
 .intro-header .product-image {
@@ -40,6 +59,21 @@
   object-position: left;
 }
 
+@media screen and (max-width: 1000px) {
+  .intro-header .product-image {
+    background-color: var(--c-background-alt);
+    border-radius: var(--radius);
+    aspect-ratio: 1 / 1;
+    max-width: 500px;
+    max-height: 500px;
+  }
+
+  .intro-header .product-image img {
+    position: relative;
+    object-position: center;
+  }
+}
+
 .copy-area {
   font-size: 1.3rem;
 }
@@ -53,6 +87,16 @@
   /* text-wrap: balance; */
 }
 
+@media screen and (max-width: 1000px) {
+  .copy-area .display-text {
+    margin-top: 0.5rem;
+  }
+
+  .copy-area {
+    text-align: center;
+  }
+}
+
 .copy-area .price {
   font-weight: 600;
   margin-bottom: 0.5rem;
@@ -63,6 +107,7 @@
 }
 
 .copy-area button {
+  margin-top: 1rem;
   width: auto;
 }
 
@@ -70,6 +115,15 @@
 
 .color-toolbar {
   margin-top: auto;
+}
+
+@media screen and (max-width: 1000px) {
+  .color-toolbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .colorway-selector {
@@ -82,7 +136,7 @@
   width: 1.5rem;
   height: 1.5rem;
   border-radius: 100%;
-  border: 1px solid #000;
+  border: 1px solid #6d6d6d;
   position: relative;
   cursor: pointer;
 }
@@ -121,12 +175,23 @@
 
 .preview-toolbar {
   position: absolute;
-  right: 2rem;
-  bottom: 2rem;
+  right: 0;
+  bottom: 0;
+  margin: 2rem;
 
   display: flex;
   align-items: center;
   gap: 1rem;
+  z-index: 2;
+}
+
+@media screen and (max-width: 1000px) {
+  .preview-toolbar {
+    left: 0;
+    bottom: 0;
+    width: calc(100% - 2rem * 2);
+    justify-content: center;
+  }
 }
 
 .image-selector-toolbar {
@@ -149,6 +214,14 @@
 .preview-toolbar .preview-3d-button {
   padding: 0.6rem;
   margin: 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .preview-toolbar .preview-3d-button {
+    position: absolute;
+    bottom: 0rem;
+    right: 0rem;
+  }
 }
 
 .preview-toolbar button:hover {

@@ -1,6 +1,7 @@
 :root {
   --c-text: #423f3f;
   --c-primary: #1967d2;
+  --c-background-alt: #f7eff5;
   --font-family: "Outfit", Roboto, Helvetica, Arial, sans-serif;
   --radius: 28px;
   --radius-small: 4px;
