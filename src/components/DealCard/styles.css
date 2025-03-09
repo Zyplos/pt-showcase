@@ -54,3 +54,16 @@
   height: 1.5rem;
   display: block;
 }
+
+@media screen and (max-width: 1000px) {
+  .deal-card {
+    flex-wrap: wrap;
+    padding: 2rem;
+  }
+
+  .learn-more-link {
+    width: 100%;
+    margin-left: 0;
+    justify-content: start;
+  }
+}
