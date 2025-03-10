@@ -73,6 +73,14 @@
   border: 2px solid transparent;
 }
 
+.nav-items .active-panel-button {
+  color: #ff3e3e;
+}
+
+.nav-items .active-panel-button:hover {
+  background-color: rgba(210, 25, 25, 0.08);
+}
+
 .nav-items .active-link span {
   position: relative;
 }

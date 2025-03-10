@@ -24,9 +24,9 @@
   margin: 0;
 }
 
-/* * {
+* {
   transition: all 0.17s ease-out;
-} */
+}
 
 html {
   font-size: 16px;
@@ -180,6 +180,14 @@ body,
   padding: 0;
 }
 
+.design-commentary-wrapper.closed .meWrapper {
+  opacity: 0;
+}
+
+.design-commentary-wrapper.closed .design-content {
+  padding: 0;
+}
+
 .design-commentary-wrapper {
   background-color: var(--c-background-design);
   color: #fff;
@@ -191,6 +199,7 @@ body,
   --image-size: 2.5rem;
   --stub-width: 15px;
   --padding: 5px;
+  opacity: 1;
 
   position: absolute;
   top: 1.5rem;

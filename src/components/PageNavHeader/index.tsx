@@ -1,6 +1,14 @@
 import "./styles.css";
 
-export default function PageNavHeader() {
+interface Props {
+  setShowCommentary: React.Dispatch<React.SetStateAction<boolean>>;
+  showCommentary: boolean;
+}
+
+export default function PageNavHeader({
+  setShowCommentary,
+  showCommentary,
+}: Props) {
   return (
     <div className="page-nav-header-wrapper">
       <div className="page-nav-header limited-width-big">
@@ -10,7 +18,17 @@ export default function PageNavHeader() {
           <p className="active-link">
             <span>Overview</span>
           </p>
-          <button type="button">Toggle Design Commentary</button>
+          <button
+            type="button"
+            onClick={() => {
+              setShowCommentary(!showCommentary);
+            }}
+            className={showCommentary ? "active-panel-button" : ""}
+          >
+            {showCommentary
+              ? "Close Design Commentary"
+              : "Toggle Design Commentary"}
+          </button>
         </div>
 
         <div className="buy-box">

@@ -15,8 +15,11 @@ import monospaceIcon from "@/assets/monospace-icon.svg";
 import geminiImage from "@/assets/gemini-4k.png";
 import weatherImage from "@/assets/weather.png";
 import meImage from "@/assets/me.png";
+import { useState } from "react";
 
 export function App() {
+  const [showCommentary, setShowCommentary] = useState(false);
+
   return (
     <>
       <div className="page-wrapper">
@@ -24,7 +27,10 @@ export function App() {
           <DisclaimerBanner />
 
           {/* <section className="limited-width-big"> */}
-          <PageNavHeader />
+          <PageNavHeader
+            setShowCommentary={setShowCommentary}
+            showCommentary={showCommentary}
+          />
           {/* </section> */}
 
           <section
@@ -128,7 +134,9 @@ export function App() {
             <Footer />
           </section>
         </main>
-        <section className="design-commentary-wrapper">
+        <section
+          className={`design-commentary-wrapper ${showCommentary ? "" : "closed"}`}
+        >
           <div className="meWrapper">
             <div className="stub" />
             <img src={meImage} alt="me" />
