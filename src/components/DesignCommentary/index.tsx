@@ -158,15 +158,21 @@ export default function DesignCommentary() {
 
       <section>
         <p className="section-title">Renders</p>
+
         <p>
           I forget where I read this, but one of the guidelines Google has for
           product photography is showcasing stuff in a natural environment. I
-          didn't want to use any stuff not made by me, and I didn't want to
-          model out an entire scene for an image or two (rendering takes a good
-          chunk of time on my computer). Although my Pixel 8 Pro takes wonderful
-          pictures, I don't have the photography skills to frame a scene and do
-          some CGI magic to get a mockup done. But do know I kept it in mind...
-          (edited)
+          wanted to make all the assets myself, meaning I would have to make
+          everything that would go into making a realistic scene. That would've
+          taken me a while since I'm not exactly a Blender expert (and rendering
+          takes a good chunk of time on my computer). Doing this would've taken
+          too long to finish this project.
+        </p>
+
+        <p>
+          Although my Pixel 8 Pro takes wonderful pictures, I don't have the
+          photography skills to frame a scene and do some CGI magic to get a
+          mockup done. But please note I kept this rule in mind...
         </p>
       </section>
 
