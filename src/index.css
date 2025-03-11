@@ -4,7 +4,8 @@
   --c-background-alt: #f7eff5;
   --c-background-design: #191515;
   --c-background-design-alt: #292121;
-  --c-background-design-accent: #ff3e3e;
+  --c-background-design-accent: #a35151;
+  --c-background-design-accent-hover: #b43838;
   --font-family: "Outfit", Roboto, Helvetica, Arial, sans-serif;
   --radius: 28px;
   --radius-small: 4px;
@@ -170,6 +171,7 @@ body,
   width: 35%;
   z-index: 100;
   padding: 0;
+  font-size: 1.15rem;
 }
 
 .design-commentary-wrapper .design-content {
@@ -207,7 +209,7 @@ body,
 .design-commentary-wrapper .section-title {
   z-index: 100;
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   text-align: left;
 }
 

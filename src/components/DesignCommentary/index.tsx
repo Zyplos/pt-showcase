@@ -1,6 +1,10 @@
+import ImageChip from "../ImageChip";
+
 import gsaImage from "@/assets/gsa-original.png";
 import gsaMiniImage from "@/assets/gsa-mini.png";
 import mk14ServerImage from "@/assets/mk14.jpg";
+import timerRenderImage from "@/assets/timer-unused.png";
+import thisGuyImage from "@/assets/you.png";
 
 export default function DesignCommentary() {
   return (
@@ -178,9 +182,59 @@ export default function DesignCommentary() {
 
       <section>
         <p className="section-title">LED Matrix</p>
+
         <p>
-          front leds could be for something cool like notifications (referencing
-          wiiconnect24 light bar)
+          The front LED Matrix was the main catalyst for putting the work into
+          finishing this concept. I really wanted to see it done since I think
+          it looks pretty! I like to think it does an excellent job calling back
+          to what I was referencing.
+        </p>
+
+        <p>
+          I would like to credit{" "}
+          <a
+            href="https://twitter.com/peggdraws/media"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <ImageChip src={thisGuyImage} alt="" underlineOnHover={true}>
+              this guy
+            </ImageChip>
+          </a>{" "}
+          with helping make some of the LED Matrix patterns. He does good work!
+        </p>
+
+        <p>
+          Apart from just being a reference to something, the LED Matrix is
+          meant to be dynamic and is meant to respond to events. For example,
+          when you get a notification it'll light up with an icon. When asking
+          Gemini something it'll show the LED pattern that Google Nest speakers
+          show. There's a few renders on this page showing this functionality.
+        </p>
+
+        <figure>
+          <img
+            src={timerRenderImage}
+            alt="A yellow Pixel Base unit showing a Timer on the front LED Matrix"
+          />
+
+          <figcaption>
+            An unused render showing a timer on the LED Matrix.
+          </figcaption>
+        </figure>
+
+        <p>
+          Users should also be able to customize it and draw whatever pattern
+          they'd like to show when the unit is idle.
+        </p>
+
+        <p>
+          <i>
+            For the idle state, I had the Nintendo Wii's CD Slot in mind, which
+            doubled as a light bar that would light up when the user got
+            notifications from WiiConnect24. I think the Pixel Base should react
+            to things when its asleep.
+          </i>
         </p>
       </section>
 
