@@ -232,26 +232,62 @@ export default function DesignCommentary() {
           <i>
             For the idle state, I had the Nintendo Wii's CD Slot in mind, which
             doubled as a light bar that would light up when the user got
-            notifications from WiiConnect24. I think the Pixel Base should react
-            to things when its asleep.
+            notifications from WiiConnect24. I was going for a similar vibe
+            here.
           </i>
         </p>
       </section>
 
       <section>
-        <p className="section-title">Keyboard</p>
+        <p className="section-title">Keyboard & Mouse</p>
         <p>
-          the pixelbook had a system key on the left but i moved it to the right
-          since i feel like its not often used by most people
+          I was originally only going to make the Pixel Base unit, but the
+          renders looked at bit empty. I wanted more variety, so I added a
+          keyboard and mouse for a more complete set.
         </p>
-      </section>
 
-      <section>
-        <p className="section-title">Mouse</p>
         <p>
-          Something I cut from this was a highlight of the mouse and how the
-          charging port is on the back, not the bottom. But I ended up not
-          making the mouse myself for the sake of time.
+          I wanted to make something I would use myself, so the keyboard is
+          based off of my Corsair K100. Most included keyboards are low profile
+          and not clicky, which I suppose most people seem to want, so I
+          included it here.
+        </p>
+
+        <p>
+          The caps lock and num lock indicator also double has a volume control.
+          I meant for it to be a capacitive touch sort of thing (I saw{" "}
+          <a
+            href="https://muilab.com/en/products_and_services/muiboard/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            this
+          </a>{" "}
+          and thought maybe it would be possible).
+        </p>
+
+        <p>
+          The Google Pixelbook had a system key on the left but I moved it to
+          the right since I feel like its not often used by most people. Some
+          Chromebook keyboards don't have one at all, so this seemed fine.
+        </p>
+
+        <p>
+          As for the mouse, the mouse I didn't make, credits go to{" "}
+          <a
+            href="https://sketchfab.com/3d-models/mouse-logitech-g203-6b70ace291c44735bed3309b05f44bba"
+            target="_blank"
+            rel="noreferrer"
+          >
+            JorgeAlfredOwO
+          </a>{" "}
+          for the mouse model.
+        </p>
+
+        <p>
+          Something I cut from the site was a highlight of the mouse and how the
+          charging port is on the back, not the bottom. I didn't know where to
+          put that highlight but I knew it would be a widely appreciated detail.
         </p>
       </section>
 

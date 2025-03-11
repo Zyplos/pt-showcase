@@ -11,6 +11,8 @@
   padding-top: 0.2rem;
   padding-bottom: 0.2rem;
   padding-right: 0.4rem;
+  margin-left: 2px;
+  margin-right: 2px;
   border-radius: var(--radius);
   background: var(--c-background-design-accent);
   color: #fff;

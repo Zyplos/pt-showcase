@@ -1,4 +1,7 @@
 import "./styles.css";
+import ImageChip from "../ImageChip";
+
+import thisGuyImage from "@/assets/you.png";
 
 export default function FAQStuff() {
   return (
@@ -15,8 +18,22 @@ export default function FAQStuff() {
           </p>
           <p>
             Please note this isn't made in any official capacity or anything,
-            I'm not a Googler. Just something I thought up and wanted to make.
-            All renders by me! Except for the mouse model. Credits go to{" "}
+            I'm not a Googler. Just something I thought up and wanted to make. I
+            made everything on this page with a few exceptions.
+          </p>
+          <p>
+            Thank you to{" "}
+            <a
+              href="https://twitter.com/peggdraws/media"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <ImageChip src={thisGuyImage} alt="" underlineOnHover={true}>
+                this guy
+              </ImageChip>
+            </a>
+            with helping make some of the LED Matrix patterns. Credits for the
+            mouse model and monitor model seen in some of the renders go to{" "}
             <a
               href="https://sketchfab.com/3d-models/mouse-logitech-g203-6b70ace291c44735bed3309b05f44bba"
               target="_blank"
@@ -24,10 +41,18 @@ export default function FAQStuff() {
             >
               JorgeAlfredOwO
             </a>{" "}
-            for the model.
+            and{" "}
+            <a
+              href="https://www.thebasemesh.com/asset/computer-screen-01"
+              target="_blank"
+              rel="noreferrer"
+            >
+              The Base Mesh
+            </a>
+            , respectively.
           </p>
           <p>
-            There are extra notes if you{" "}
+            There is some extra commentary you can read if you{" "}
             <strong>toggle the design notes</strong> at the top.
           </p>
         </details>
