@@ -125,7 +125,9 @@ export default function FAQStuff() {
               they do
             </a>
             ). Really I just added that section on a whim because the page was
-            looking a bit empty. But I did give it some thought:
+            looking a bit empty. It just sounded like a reasonable thing that
+            could exist with Google Workspace and Google Cloud being things we
+            could integrate with. But I did give it some thought:
           </p>
           <p>
             Microsoft recently released the Windows 365 Link, a device who's
@@ -154,11 +156,6 @@ export default function FAQStuff() {
             with the Sun Microsystems story and depending on how Fuchsia would
             end up working, I think it would make for a better virtual desktop
             experience than streaming video.
-          </p>
-          <p>
-            With Google Cloud having this resources that it does I thought maybe
-            this seemed like a plausible enough thing to include and yet another
-            thing that would integrate well.
           </p>
           <p>
             <i>

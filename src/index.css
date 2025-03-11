@@ -4,6 +4,7 @@
   --c-background-alt: #f7eff5;
   --c-background-design: #191515;
   --c-background-design-alt: #292121;
+  --c-background-design-accent: #ff3e3e;
   --font-family: "Outfit", Roboto, Helvetica, Arial, sans-serif;
   --radius: 28px;
   --radius-small: 4px;
@@ -240,6 +241,21 @@ body,
 
 .design-commentary-wrapper details[open] summary {
   margin-bottom: 1rem;
+}
+
+.design-commentary-wrapper blockquote {
+  position: relative;
+}
+
+.design-commentary-wrapper blockquote::before {
+  content: " ";
+  background-color: var(--c-background-design-accent);
+  width: 3px;
+  height: 100%;
+  display: block;
+  position: absolute;
+  left: -10px;
+  border-radius: 20px;
 }
 
 /* https://stackoverflow.com/questions/6794000/fixed-position-but-relative-to-container/11833892#11833892 */

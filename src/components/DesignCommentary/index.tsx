@@ -89,41 +89,70 @@ export default function DesignCommentary() {
         <p className="section-title">The Unit</p>
 
         <p>
-          the back of the main unit and the bottom of the keyboard have a smooth
-          metal finish as an accent to the brushed metal as a callback to
-          pixelbook (which in turn also makes its it a callback to the early
-          pixel smartphone duotone backs)
+          The "Pixel Base" is a small form factor desktop computer running
+          Fuchsia OS. It has reasonable I/O plus and SD Card slot, which I added
+          as a consideration incase it would hypothetically instead run Android.
         </p>
 
         <p>
-          didnt put it up front and center since the reflective material isnt as
-          subtle as with those other products but i still think the effect looks
-          good
+          It has a metal chassis which makes for a premium look and feel. This
+          was mostly a Blender learning experience as I tried to make the
+          materials look somewhat realistically looking. I don't actually know
+          if you can get metal to look like that but I think the colors are
+          pretty based on what I was going for (see the previous section of the
+          design notes).
         </p>
 
         <p>
-          I have been calling this the "Google Pixeltop" in reference to the
-          Pixelbook, but that never sat right with me as I was working on it.
-          "Google Pixel Desktop" sounded too long.
+          The front fabric part is inspired by the Google Nest speakers. The LED
+          Matrix is really what made me think of this whole idea in the first
+          place and draws inspiration from old Google products (again, see the
+          previous section).
+        </p>
+
+        <p>
+          The back of the main unit and the bottom of the keyboard have a smooth
+          metal finish as an accent to the brushed metal as a callback to Google
+          Pixelbook (which in turn also makes it a callback to the early Pixel
+          smartphone duotone backs). I didn't put it up front and center since
+          the reflective material isn't as subtle as with those other products
+          but I still think the effect looked good enough to include. Having the
+          whole thing be the same metal finish seemed boring.
+        </p>
+
+        <p>The I/O icons are, of course, from Material Symbols.</p>
+
+        <p>
+          The name is something I'm not totally 100% on. It's the kind of thing
+          you'd spend a ton of time thinking about (I only did this in a week or
+          so). I had been calling this the "Google Pixeltop" in reference to the
+          Google Pixelbook, but that never sat right with me as I was working on
+          it. "Google Pixel Desktop" sounded too long. Both didn't really roll
+          of the tongue.
         </p>
 
         <p>
           Consulting with Gemini 2.0 Pro Experimental 02-05 for suggestions gave
           me:
         </p>
+
         <blockquote>
           Pixel Base: Suggests a foundational element, like a base station.
         </blockquote>
+
         <p>
           which I liked much more than what I had. It also resonates with what
-          its supposed to do: be the main thing in your house (personal
+          its supposed to do: be the main useful thing in your house (personal
           computer, smart home hub, smartphone connectivity, a lot of
           interconnectivity with the main devices people use).
         </p>
+
         <p>
-          One suggestion it included was "Google Workspace PC" which I like a
-          lot. Sounds like it would fit in some enterprise thing. I think the
-          missing red colorway would fit it.
+          <i>
+            One suggestion Gemini included was "Google Workspace PC" which I
+            like a lot. Sounds like it would fit in some enterprise thing. I
+            think a hypothetical red colorway would fit it.
+          </i>
         </p>
       </section>
 
