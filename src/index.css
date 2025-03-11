@@ -194,7 +194,7 @@ body,
 
 .design-commentary-wrapper {
   background-color: var(--c-background-design);
-  color: #fff;
+  color: #fde6e6;
   position: relative;
 }
 
@@ -257,8 +257,20 @@ body,
   height: 100%;
   display: block;
   position: absolute;
-  left: -10px;
+  left: -15px;
   border-radius: 20px;
+}
+
+.design-commentary-wrapper li::marker {
+  color: var(--c-background-design-accent);
+}
+
+.design-commentary-wrapper li {
+  margin-bottom: 0.5rem;
+}
+
+.design-commentary-wrapper a {
+  color: #ff3e3e;
 }
 
 /* https://stackoverflow.com/questions/6794000/fixed-position-but-relative-to-container/11833892#11833892 */

@@ -292,6 +292,41 @@ export default function DesignCommentary() {
       </section>
 
       <section>
+        <p className="section-title">Software</p>
+        <p>
+          Although one of the main points of this product is that it runs
+          Fuchsia, exploring specifics of the software side of things was out of
+          the scope of the project. Though I did come up with some ideas on what
+          people would find helpful to have:
+        </p>
+        <ul>
+          <li>
+            scam detection from the Pixel phones but for desktop. kind of like a
+            beefed up version of what Chrome has
+          </li>
+          <li>acting as a Matter hub so its the center of your smart home</li>
+          <li>
+            a Google Lens/Circle to Search UI kind of thing that instead summons
+            Gemini for extra context like adding something to your calendar from
+            information on the screen. system wide so it works in any program.
+            uses Gemini Nano to do this locally
+          </li>
+          <li>
+            Gemini being able to intelligently sort files based on descriptions,
+            something useful to do with the filesystem
+          </li>
+          <li>
+            One of the original goals for Fuchsia for it to be able to run
+            Flutter projects, keep that here I suppose
+          </li>
+          <li>
+            The FAQ section towards the bottom of the page has some details on
+            cloud connectivity
+          </li>
+        </ul>
+      </section>
+
+      <section>
         <p className="section-title">The AI Angle</p>
         <p>
           Ideally the Gemini section would've showed the LED Matrix animating
@@ -299,31 +334,6 @@ export default function DesignCommentary() {
           about the weather, but doing that was out of the scope of this
           project.
         </p>
-      </section>
-
-      <section>
-        <p className="section-title">Fuchsia</p>
-        <p>
-          Although one of the main points of this product would be that it runs
-          on Fuchsia, exploring specifics of the software side of things was out
-          of the scope of the project. Though I did come up with some ideas on
-          what people would find helpful to have:
-        </p>
-        <ul>
-          <li>
-            scam detection from the Pixel phones to look for phishing attempts
-          </li>
-          <li>Acting as a Matter hub</li>
-          <li>
-            a Google Lens/Circle to Search UI kind of thing that instead summons
-            Gemini for extra context like adding something to your calendar from
-            information on the screen
-          </li>
-          <li>
-            Gemini being able to bulk rename files or sort files, something
-            useful with the filesystem
-          </li>
-        </ul>
       </section>
     </>
   );
