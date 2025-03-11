@@ -3,6 +3,7 @@
   --c-primary: #1967d2;
   --c-background-alt: #f7eff5;
   --c-background-design: #191515;
+  --c-background-design-alt: #292121;
   --font-family: "Outfit", Roboto, Helvetica, Arial, sans-serif;
   --radius: 28px;
   --radius-small: 4px;
@@ -165,14 +166,14 @@ body,
 }
 
 .design-commentary-wrapper {
-  width: 30%;
+  width: 35%;
   z-index: 100;
   padding: 0;
 }
 
 .design-commentary-wrapper .design-content {
   overflow-y: scroll;
-  padding: 2rem;
+  padding: 2rem 4rem;
 }
 
 .design-commentary-wrapper.closed {
@@ -192,6 +193,53 @@ body,
   background-color: var(--c-background-design);
   color: #fff;
   position: relative;
+}
+
+.design-commentary-wrapper .design-content section {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 8rem;
+}
+
+.design-commentary-wrapper .section-title {
+  z-index: 100;
+  margin: 0;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.design-commentary-wrapper img {
+  max-width: 100%;
+}
+
+.design-commentary-wrapper details {
+  background-color: var(--c-background-design-alt);
+  padding: 2rem;
+  border-radius: var(--radius);
+}
+
+.design-commentary-wrapper details p {
+  margin-bottom: 1rem;
+}
+
+.design-commentary-wrapper figure {
+  margin-bottom: 2rem;
+}
+
+.design-commentary-wrapper figcaption {
+  text-align: center;
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+
+.design-commentary-wrapper summary {
+  cursor: pointer;
+}
+
+.design-commentary-wrapper details[open] summary {
+  margin-bottom: 1rem;
 }
 
 /* https://stackoverflow.com/questions/6794000/fixed-position-but-relative-to-container/11833892#11833892 */
