@@ -28,7 +28,7 @@ export default function FAQStuff() {
           </p>
           <p>
             There are extra notes if you{" "}
-            <strong>toggle the design commentary</strong> at the top.
+            <strong>toggle the design notes</strong> at the top.
           </p>
         </details>
         <details name="faq">
