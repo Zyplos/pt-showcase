@@ -56,8 +56,8 @@ export function App() {
               <p>
                 The Pixel Base integrates with all of Google to help you with
                 your daily tasks. Always stay up to date with what's happening
-                in your circles with a better ease of access to Google Calendar,
-                Tasks, and Keep.
+                in your circles with a better ease of access to things like
+                Google Calendar, Tasks, and Keep.
               </p>
               <p>
                 Pairing your Pixel devices and smart home devices to the Pixel

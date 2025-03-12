@@ -9,6 +9,7 @@ export default function FAQStuff() {
       <div className="title-section">
         <h2>Frequently asked questions.</h2>
       </div>
+
       <div className="content-section">
         <details name="faq">
           <summary>What is this?</summary>
@@ -17,9 +18,9 @@ export default function FAQStuff() {
             Google.
           </p>
           <p>
-            Please note this isn't made in any official capacity or anything,
-            I'm not a Googler. Just something I thought up and wanted to make. I
-            made everything on this page with a few exceptions.
+            Please note this isn't made in any official capacity or anything.
+            Just something I thought up and wanted to make. I made everything on
+            this page with a few exceptions.
           </p>
           <p>
             Thank you to{" "}
@@ -56,10 +57,12 @@ export default function FAQStuff() {
             <strong>open the design notes</strong> at the top.
           </p>
         </details>
+
         <details name="faq">
           <summary>Where can I buy this?</summary>
           <p>Sadly you cannot buy this. As it does not exist. Sorry!</p>
         </details>
+
         <details name="faq">
           <summary>
             Why's this running Fuchsia and not ChromeOS or Android?
@@ -77,8 +80,8 @@ export default function FAQStuff() {
           </p>
           <p>
             Launching this with Android may make sense, but in my opinion I
-            wouldn't do it, at least with Android's current developer landscape.
-            The apps that are out there only support an equivalent experience to
+            wouldn't do it, at least with Android's current app landscape. The
+            apps that are out there only support an equivalent experience to
             what a Chromebook would give you (at that point, why even make this
             thing in that case?).
           </p>
@@ -109,29 +112,29 @@ export default function FAQStuff() {
           <p>
             Fuchsia was still figuring out what it wanted to be before it was
             cut back. I like to think if it had more time it would've developed
-            into a serious desktop OS contender (along with its mobile
-            ambitions, making for great integrations).
+            into a serious desktop OS contender. I think its ambitions were cut
+            short.
           </p>
           <p>
             This project was made in 2025 with the hypothetical release date of
             2027, though this would definitely need more development time if it
             were to exist. With Microsoft leaving so much of the market behind
-            with Windows 10, there's an opportunity here to compete...
+            with Windows 10, there's an opportunity here for something new.
           </p>
         </details>
 
         <details name="faq">
           <summary>Why is this using the Google Tensor G6?</summary>
           <p>
-            This is based on a story I read about user feedback to the Tensor
-            chips where people were complaining about overheating issues. I
-            picked the Tensor G6 since the story mentioned that it was the
-            target for shipping an improved Tensor chip.
+            This is based on a story I read about user feedback to overheating
+            issues in the Tensor chips. I picked the Tensor G6 since the story
+            mentioned that it was the target for shipping an improved Tensor
+            chip.
           </p>
 
           <p>
-            Realistically this hypothetical product would ship way later than
-            when the Tensor G6 Pixel phones would come out though (given
+            Realistically though, this hypothetical product would ship way later
+            than when the Tensor G6 Pixel phones would come out (given
             development time for everything involved).
           </p>
         </details>
@@ -141,7 +144,8 @@ export default function FAQStuff() {
             How does the Pixel Base connect to Google Workspace PCs?
           </summary>
           <p>
-            "Google Workspace PCs" don't really exist (though in some manner{" "}
+            "Google Workspace PCs" don't really exist (though in some manner I
+            suppose{" "}
             <a
               href="https://cloud.google.com/solutions/virtual-desktops?hl=en"
               target="_blank"
@@ -171,10 +175,6 @@ export default function FAQStuff() {
             .
           </p>
           <p>
-            I think the Windows 365 Link is a bit silly. I suppose I'm not the
-            target audience for it.
-          </p>
-          <p>
             In a Fuchsia-powered reality, I think a good option would be making
             mounted cloud storage a very seamless experience. Like Google Drive
             for Desktop but with the backing of a first party platform. Paired
@@ -194,11 +194,12 @@ export default function FAQStuff() {
         <details name="faq">
           <summary>Why's there a Micro SD Card slot in the back?</summary>
           <p>
-            Should this hypothetical product come to market, it would probably
-            be running Android if Google is shifting away from ChromeOS (see the
-            second message in the FAQ). Android supports extra storage with an
-            SD Card, but you hardly see that feature being used now a days. May
-            as well put it in this, people would find it useful.
+            Should this hypothetical product come to market, it would
+            realistically probably be running Android if Google is shifting away
+            from ChromeOS (see the second message in the FAQ). Android supports
+            extra storage with an SD Card, but you hardly see that feature being
+            used now a days. May as well put it in this, people would find it
+            useful.
           </p>
           <p>
             I couldn't decide between a normal sized SD Card or Micro SD Card. I
