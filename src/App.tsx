@@ -18,7 +18,7 @@ import meImage from "@/assets/me.png";
 import { useState } from "react";
 
 export function App() {
-  const [showCommentary, setShowCommentary] = useState(true);
+  const [showCommentary, setShowCommentary] = useState(false);
 
   return (
     <>
