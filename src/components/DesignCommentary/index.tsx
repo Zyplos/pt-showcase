@@ -102,7 +102,7 @@ export default function DesignCommentary() {
           It has a metal chassis which makes for a premium look and feel. This
           was mostly a Blender learning experience as I tried to make the
           materials look somewhat realistically looking. I don't actually know
-          if you can get metal to look like that but I think the colors are
+          if you can get metal to look like that, but I think the colors are
           pretty based on what I was going for (see the previous section of the
           design notes).
         </p>
@@ -115,14 +115,14 @@ export default function DesignCommentary() {
         </p>
 
         <p>
-          The back of the main unit and the bottom of the keyboard have a smooth
-          metal finish as an accent to the brushed metal. I also meant it to be
-          a callback to the Google Pixelbook (which in turn also makes it a
-          callback to the early Pixel smartphone two tone backs). I didn't put
-          it up front and center since the reflective material isn't as subtle
-          as with those other products but I still think the effect looked good
-          enough to include. Having the whole thing be the same metal finish
-          seemed boring.
+          The back of the main unit and the bottom of the keyboard have a
+          polished metal finish as an accent to the brushed metal. I also meant
+          it to be a callback to the Google Pixelbook (which in turn also makes
+          it a callback to the early Pixel smartphone two tone backs). I didn't
+          put it up front and center since the reflective material isn't as
+          subtle as with those other products but I still think the effect
+          looked good enough to include. Also, having the whole thing be the
+          same metal finish seemed boring.
         </p>
 
         <p>The I/O icons are, of course, from Material Symbols.</p>
@@ -214,9 +214,9 @@ export default function DesignCommentary() {
 
         <p>
           The front LED Matrix was the main catalyst for putting the work into
-          finishing this concept. I really wanted to see it done since I think
-          it looks pretty! I like to think it does an excellent job calling back
-          to what I was referencing.
+          finishing this concept. I really wanted to see it done since I thought
+          it would look nice (and in the end I think it does!). I like to think
+          it does an excellent job calling back to what I was referencing.
         </p>
 
         <p>
@@ -310,7 +310,10 @@ export default function DesignCommentary() {
         </p>
 
         <p>
-          As for the mouse, the mouse I didn't make, credits go to{" "}
+          I wasn't sure what to do with the mouse. I couldn't come up with a
+          fitting mouse design and I concede that most people would not want to
+          use the 12 button mouse I do, so I opted to use a typical mouse button
+          design. The mouse I didn't make, credits go to{" "}
           <a
             href="https://sketchfab.com/3d-models/mouse-logitech-g203-6b70ace291c44735bed3309b05f44bba"
             target="_blank"
@@ -318,7 +321,7 @@ export default function DesignCommentary() {
           >
             JorgeAlfredOwO
           </a>{" "}
-          for the mouse model.
+          for the mouse model. Ideally it would be something more fitting.
         </p>
 
         <p>
@@ -371,9 +374,10 @@ export default function DesignCommentary() {
         <p className="section-title">AI</p>
 
         <p>
-          I don't think this one's my strongest visual here, but I really like
-          the perspective of the camera for this render. The text graphics on
-          the sides could be improved, but I wasn't quite sure what else to put.
+          I don't think the Gemini graphic is one's my strongest visual here,
+          but I really like the perspective of the camera for this render. The
+          text graphics on the sides could be improved, but I wasn't quite sure
+          what else to put.
         </p>
 
         <p>
@@ -387,7 +391,7 @@ export default function DesignCommentary() {
             Project Mariner
           </a>
           . I think there could be some interesting interactions to explore when
-          having access to multiple desktop applications.
+          having access to a range of different desktop applications.
         </p>
 
         <p>
@@ -399,9 +403,8 @@ export default function DesignCommentary() {
 
         <p>
           Ideally the Pixel Sense section would've showed the LED Matrix
-          animating from the Assistant pattern to something like a cloudy icon
-          when asked about the weather, but I wanted to spend a maximum of two
-          weeks on this project and that would've added some time.
+          animating between different states, but I wanted to spend a maximum of
+          two weeks on this project and that would've added some time.
         </p>
       </section>
 
@@ -413,6 +416,20 @@ export default function DesignCommentary() {
           hypothetical Pixel Base has and why I included them. Look though them
           if you'd like some extra context for what I was thinking when making
           this concept.
+        </p>
+      </section>
+
+      <section>
+        <p className="section-title">That's all!</p>
+
+        <p>
+          I don't typically do 3D work, so this was a nice learning experience.
+          I quite happy with how this project turned out. Frankly, If I had
+          access to a workshop I would just make this myself!
+        </p>
+
+        <p>
+          This was a fun thing to work on. I hope you liked looking through it.
         </p>
       </section>
     </>
