@@ -176,7 +176,7 @@ body,
 
 .design-commentary-wrapper .design-content {
   overflow-y: scroll;
-  padding: 2rem 4rem;
+  padding: 2rem 3rem;
 }
 
 .design-commentary-wrapper.closed {
@@ -192,7 +192,20 @@ body,
   padding: 0;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1550px) {
+  .design-commentary-wrapper {
+    width: 55%;
+  }
+}
+
+/* @media screen and (max-width: 1350px) {
+  .design-commentary-wrapper {
+    width: 65%;
+  }
+} */
+
+/* mobile */
+@media screen and (max-width: 1300px) {
   .page-wrapper {
     flex-direction: column;
   }
