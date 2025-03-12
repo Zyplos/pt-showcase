@@ -304,7 +304,6 @@ export default function DesignCommentary() {
             scam detection from the Pixel phones but for desktop. kind of like a
             beefed up version of what Chrome has
           </li>
-          <li>acting as a Matter hub so its the center of your smart home</li>
           <li>
             a Google Lens/Circle to Search UI kind of thing that instead summons
             Gemini for extra context like adding something to your calendar from
@@ -312,12 +311,17 @@ export default function DesignCommentary() {
             uses Gemini Nano to do this locally
           </li>
           <li>
+            basically this should include all the special Pixel features people
+            like, the best of Pixel here for desktop
+          </li>
+          <li>acting as a Matter hub so its the center of your smart home</li>
+          <li>
             Gemini being able to intelligently sort files based on descriptions,
             something useful to do with the filesystem
           </li>
           <li>
             One of the original goals for Fuchsia for it to be able to run
-            Flutter projects, keep that here I suppose
+            Flutter projects, this should do that too
           </li>
           <li>
             The FAQ section towards the bottom of the page has some details on
@@ -327,12 +331,40 @@ export default function DesignCommentary() {
       </section>
 
       <section>
-        <p className="section-title">The AI Angle</p>
+        <p className="section-title">AI</p>
+
         <p>
-          Ideally the Gemini section would've showed the LED Matrix animating
-          from the Assistant pattern to something like a cloudy icon when asked
-          about the weather, but doing that was out of the scope of this
-          project.
+          I don't think this one's my strongest visual here, but I really like
+          the perspective of the camera for this render. The text graphics on
+          the sides could be improved, but I wasn't quite sure what else to put.
+        </p>
+
+        <p>
+          With this being a first party platform, this seemed like an excellent
+          place to test a desktop version of{" "}
+          <a
+            href="https://deepmind.google/technologies/project-mariner/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Project Mariner
+          </a>
+          . I think there could be some interesting interactions to explore when
+          having access to multiple desktop applications.
+        </p>
+
+        <p>
+          One of the AI features the Pixel Base has is the upcoming Pixel Sense
+          feature for Pixel phones. If it turns out to be like a super souped up
+          version of At a Glance, I think that would be extremely useful to have
+          here, especially if its able to hook into other 3rd party programs.
+        </p>
+
+        <p>
+          Ideally the Pixel Sense section would've showed the LED Matrix
+          animating from the Assistant pattern to something like a cloudy icon
+          when asked about the weather, but I wanted to spend a maximum of two
+          weeks on this project and that would've added some time.
         </p>
       </section>
     </>
