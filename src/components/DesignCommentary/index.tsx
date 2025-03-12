@@ -367,6 +367,17 @@ export default function DesignCommentary() {
           weeks on this project and that would've added some time.
         </p>
       </section>
+
+      <section>
+        <p className="section-title">FAQ</p>
+
+        <p>
+          The FAQ section of the site serves to explain some of the features the
+          hypothetical Pixel Base has and why I included them. Look though them
+          if you'd like some extra context for what I was thinking when making
+          this concept.
+        </p>
+      </section>
     </>
   );
 }
