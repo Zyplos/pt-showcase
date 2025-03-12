@@ -19,6 +19,7 @@ const app = (
 
 if (import.meta.hot) {
   // With hot module reloading, `import.meta.hot.data` is persisted.
+  // biome-ignore lint/suspicious/noAssignInExpressions: default recommended
   const root = (import.meta.hot.data.root ??= createRoot(elem));
   root.render(app);
 } else {
