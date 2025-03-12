@@ -22,14 +22,14 @@ export default function DesignCommentary() {
         <p>
           Originally I was just going to make the renders, but I thought
           building a mock site of the Google Store for this hypothetical product
-          would be a nice touch.
+          would be a nice touch to showcase my renders.
         </p>
 
         <p>
           I made this with something in mind. Each colorway is a reference to
           something. Do you know to what? I'd be impressed if you could guess
-          the first two. You'd be my favorite Googler if you can guess all
-          three.
+          the first two. You'd be my favorite Googler if you can guess all three
+          correctly.
         </p>
 
         <p>
@@ -75,7 +75,7 @@ export default function DesignCommentary() {
           </p>
           <p>
             This is the <b>Google MK-14</b> server, a 4U server sold to radio
-            stations.
+            stations around 2008.
           </p>
 
           <figure>
@@ -116,12 +116,13 @@ export default function DesignCommentary() {
 
         <p>
           The back of the main unit and the bottom of the keyboard have a smooth
-          metal finish as an accent to the brushed metal as a callback to Google
-          Pixelbook (which in turn also makes it a callback to the early Pixel
-          smartphone duotone backs). I didn't put it up front and center since
-          the reflective material isn't as subtle as with those other products
-          but I still think the effect looked good enough to include. Having the
-          whole thing be the same metal finish seemed boring.
+          metal finish as an accent to the brushed metal. I also meant it to be
+          a callback to the Google Pixelbook (which in turn also makes it a
+          callback to the early Pixel smartphone two tone backs). I didn't put
+          it up front and center since the reflective material isn't as subtle
+          as with those other products but I still think the effect looked good
+          enough to include. Having the whole thing be the same metal finish
+          seemed boring.
         </p>
 
         <p>The I/O icons are, of course, from Material Symbols.</p>
@@ -157,6 +158,34 @@ export default function DesignCommentary() {
             like a lot. Sounds like it would fit in some enterprise thing. I
             think a hypothetical red colorway would fit it.
           </i>
+        </p>
+      </section>
+
+      <section>
+        <p className="section-title">Marketing</p>
+
+        <p>
+          I heavily referenced the Pixel Tablet's page on the Google Store since
+          it was minimal compared to others I saw. Seemed like the perfect
+          direction for this.
+        </p>
+
+        <p>
+          I can do my fair share of writing, but I am not a marketer. I'd like
+          to think I did an alright job with the marketing taglines.
+        </p>
+
+        <p>
+          The main marketing tagline at the top of the page might seem familiar.
+          It's from Nintendo. I used it as a placeholder while I thought of
+          something better, but I decided to keep it in the end since it
+          perfectly encompasses two key points: its playful in design but still
+          an efficient professional machine.
+        </p>
+
+        <p>
+          (you wouldn't be able to use it of course but since this is just an
+          unofficial concept that should surely be fine)
         </p>
       </section>
 
@@ -254,8 +283,8 @@ export default function DesignCommentary() {
         </p>
 
         <p>
-          The caps lock and num lock indicator also double has a volume control.
-          I meant for it to be a capacitive touch sort of thing (I saw{" "}
+          The caps lock and scroll lock indicator also double has a volume
+          control. I meant for it to be a capacitive touch sort of thing (I saw{" "}
           <a
             href="https://muilab.com/en/products_and_services/muiboard/"
             target="_blank"
@@ -264,6 +293,14 @@ export default function DesignCommentary() {
             this
           </a>{" "}
           and thought maybe it would be possible).
+        </p>
+
+        <p>
+          You may notice there's an emoji button where there typically is a num
+          lock key. I removed the num lock key as it would've misaligned all my
+          icons if I added the num lock key legend to the numpad keys. I did not
+          want to redo the whole texture so replacing it with an emoji key
+          seemed somewhat reasonable.
         </p>
 
         <p>
