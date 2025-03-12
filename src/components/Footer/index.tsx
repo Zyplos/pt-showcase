@@ -13,6 +13,16 @@ export default function Footer() {
         </a>
       </div>
       <p>
+        the repo for this site is{" "}
+        <a
+          href="https://github.com/Zyplos/pt-showcase"
+          target="_blank"
+          rel="noreferrer"
+        >
+          here
+        </a>
+      </p>
+      <p>
         check out my other stuff or follow me on{" "}
         <a href="https://twitter.com/zyplos" target="_blank" rel="noreferrer">
           twitter
