@@ -25,7 +25,7 @@ export default function PageNavHeader({
             }}
             className={showCommentary ? "active-panel-button" : ""}
           >
-            {showCommentary ? "Close Design Notes" : "Toggle Design Notes"}
+            {showCommentary ? "Close Design Notes" : "Open Design Notes"}
           </button>
         </div>
 

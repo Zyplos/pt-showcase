@@ -53,7 +53,7 @@ export default function FAQStuff() {
           </p>
           <p>
             There is some extra commentary you can read if you{" "}
-            <strong>toggle the design notes</strong> at the top.
+            <strong>open the design notes</strong> at the top.
           </p>
         </details>
         <details name="faq">

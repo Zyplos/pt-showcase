@@ -27,7 +27,7 @@ export default function Footer() {
         </a>
       </p>
       <p>
-        if you haven't already, <strong>toggle the design notes</strong> at the
+        if you haven't already, <strong>open the design notes</strong> at the
         top for extra commentary on the design of this concept
       </p>
     </footer>
