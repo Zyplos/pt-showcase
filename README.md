@@ -1,4 +1,10 @@
-# bun-react-template
+# pt-showcase
+
+This repo is for a small static site meant to showcase some renders for a product concept I made in Blender. Go look at them here: https://pixelbase.zyplos.dev
+
+
+This project used [Bun](https://bun.sh)'s React starter.
+
 
 To install dependencies:
 
@@ -18,4 +24,3 @@ To run for production:
 bun start
 ```
 
-This project was created using `bun init` in bun v1.2.4. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
