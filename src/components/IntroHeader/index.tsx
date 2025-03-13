@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./styles.css";
 import yellowFrontView from "@/assets/yellow-front.png";
 import blueFrontView from "@/assets/blue-front.png";
@@ -55,7 +55,6 @@ export default function IntroHeader() {
   };
 
   const handleImageIndexChange = (int: number) => {
-    console.log(int);
     if (int < 0) {
       setCurrentImageIndex(imageCategories.length - 1);
     } else if (int > imageCategories.length - 1) {
@@ -64,6 +63,19 @@ export default function IntroHeader() {
       setCurrentImageIndex(int);
     }
   };
+
+  // preload images
+  // https://stackoverflow.com/a/50227675
+  useEffect(() => {
+    for (const colorKey in imageMap) {
+      const colorMap = imageMap[colorKey as Color];
+
+      for (const category in colorMap) {
+        const url = colorMap[category as ImageCategory];
+        new Image().src = url;
+      }
+    }
+  }, []);
 
   return (
     <div className="intro-header bg-product">
